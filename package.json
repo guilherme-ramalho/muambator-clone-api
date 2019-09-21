@@ -1,0 +1,18 @@
+{
+  "name": "muambator-clone-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/guilherme-ramalho/muambator-clone-api.git",
+  "author": "guilherme-ramalho <guilherme-ramalho@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "sucrase": "^3.10.1"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js"
+  }
+}
